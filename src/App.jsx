@@ -1,7 +1,9 @@
+import { Navbar } from './sections/Navbar';
+
 export const App = () => {
   return (
     <>
-      <h1>Portfolio</h1>
+      <Navbar></Navbar>
     </>
   );
 };
