@@ -4,8 +4,10 @@
   --primary-color: #5448ee;
   --black: #000000;
   --white: #ffffff;
-  --gray-light: #eceeef;
+
+  --gray-light: #fbfbfb;
   --text-color: #333333;
+  --text-color-light: #5b5b5b;
 }
 
 /* Global styles */
@@ -27,6 +29,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.4;
   color: var(--text-color);
+  margin: 0;
 }
 
 img {

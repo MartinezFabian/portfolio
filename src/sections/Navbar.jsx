@@ -69,7 +69,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="projects"
               className={styles.navbar__content}
             >
               Mis Proyectos
@@ -83,7 +83,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="about"
               className={styles.navbar__content}
             >
               Sobre Mi
@@ -97,7 +97,7 @@ export const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="skills"
               className={styles.navbar__content}
             >
               Mis Skills
@@ -113,7 +113,7 @@ export const Navbar = () => {
         smooth={true}
         offset={-70}
         duration={500}
-        to="Contact"
+        to="contact"
         className={styles.btn}
       >
         Contactarme
