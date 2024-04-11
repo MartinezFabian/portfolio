@@ -65,7 +65,7 @@
   font-weight: 800;
 
   color: transparent;
-  background: linear-gradient(to right, #816fa1 0%, var(--black) 100%);
+  background: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgb(33, 19, 73) 94.3%);
   -webkit-background-clip: text;
 }
 
@@ -107,9 +107,14 @@
 }
 .hero__btn:hover {
   cursor: pointer;
-  background: #3527ff;
+  background-color: #3c2298;
+  animation: flickering 2s linear infinite;
 }
 
-.hero__btn:hover {
-  animation: flickering 2s linear infinite;
+.hero__btn--dark {
+  background-color: #333333;
+}
+
+.hero__btn--dark:hover {
+  background-color: var(--black);
 }
