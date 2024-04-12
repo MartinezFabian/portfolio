@@ -61,6 +61,22 @@ export const Navbar = () => {
               Inicio
             </Link>
           </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass={styles['navbar__content--active']}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="why-me"
+              className={styles.navbar__content}
+            >
+              ¿Por qué elegirme?
+            </Link>
+          </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -75,20 +91,7 @@ export const Navbar = () => {
               Mis Proyectos
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass={styles['navbar__content--active']}
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="about"
-              className={styles.navbar__content}
-            >
-              Sobre Mi
-            </Link>
-          </li>
+
           <li>
             <Link
               onClick={closeMenu}

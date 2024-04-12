@@ -2,7 +2,7 @@ import styles from './WhyMe.module.css';
 
 export const WhyMe = () => {
   return (
-    <section className={styles.whyme}>
+    <section id="why-me" className={styles.whyme}>
       <h2 className={styles.whyme__title}>3 Razones para elegirme</h2>
 
       <div className={styles.whyme__cards}>
