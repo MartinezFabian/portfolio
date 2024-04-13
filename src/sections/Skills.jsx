@@ -1,11 +1,14 @@
+import { Bash } from '../components/icons/Bash';
 import { CSS } from '../components/icons/CSS';
 import { Express } from '../components/icons/Express';
 import { Firebase } from '../components/icons/Firebase';
 import { Git } from '../components/icons/Git';
 import { Github } from '../components/icons/Github';
 import { Html } from '../components/icons/Html';
+import { IntelliJIDEA } from '../components/icons/IntelliJIDEA';
 import { JavaScript } from '../components/icons/JavaScript';
 import { Jest } from '../components/icons/Jest';
+import { Linux } from '../components/icons/Linux';
 import { MaterialUI } from '../components/icons/MaterialUI';
 import { MySQL } from '../components/icons/MySQL';
 import { Node } from '../components/icons/Node';
@@ -15,6 +18,8 @@ import { ReactRouter } from '../components/icons/ReactRouter';
 import { Redux } from '../components/icons/Redux';
 import { SQLServer } from '../components/icons/SQLServer';
 import { Sass } from '../components/icons/Sass';
+import { VisualStudio } from '../components/icons/VisualStudio';
+import { VisualStudioCode } from '../components/icons/VisualStudioCode';
 import styles from './Skills.module.css';
 
 export const Skills = () => {
@@ -154,6 +159,41 @@ export const Skills = () => {
                 <Github width="40px" height="40px"></Github>
               </div>
               <p className={styles.skill__name}>Github</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <Bash width="40px" height="40px"></Bash>
+              </div>
+              <p className={styles.skill__name}>Terminal</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <Linux width="40px" height="40px"></Linux>
+              </div>
+              <p className={styles.skill__name}>Linux</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <VisualStudioCode width="40px" height="40px"></VisualStudioCode>
+              </div>
+              <p className={styles.skill__name}>Visual Studio Code</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <VisualStudio width="40px" height="40px"></VisualStudio>
+              </div>
+              <p className={styles.skill__name}>Visual Studio</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <IntelliJIDEA width="40px" height="40px"></IntelliJIDEA>
+              </div>
+              <p className={styles.skill__name}>IntelliJ IDEA</p>
             </li>
           </ul>
         </section>
