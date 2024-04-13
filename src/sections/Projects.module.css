@@ -1,0 +1,74 @@
+.projects {
+  padding: 0 4rem;
+  margin-bottom: 12rem;
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    padding: 2rem 16rem;
+  }
+}
+
+.projects__title {
+  margin-bottom: 6rem;
+  text-align: center;
+
+  font-size: 3rem;
+  font-weight: 800;
+  color: transparent;
+  background: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgb(33, 19, 73) 94.3%);
+  -webkit-background-clip: text;
+}
+
+@media (min-width: 1024px) {
+  .projects__title {
+    font-size: 4rem;
+  }
+}
+
+.radios {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 30rem;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1024px) {
+  .radios {
+    width: 40rem;
+    font-size: 1.6rem;
+  }
+}
+
+.radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio__input {
+  display: none;
+}
+
+.radio__name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all 0.15s ease-in-out;
+}
+
+.radios .radio input:checked + .radio__name {
+  background-color: #fff;
+  font-weight: 600;
+}

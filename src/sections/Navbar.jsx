@@ -85,10 +85,10 @@ export const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="projects"
+              to="skills"
               className={styles.navbar__content}
             >
-              Mis Proyectos
+              Mis Skills
             </Link>
           </li>
 
@@ -100,10 +100,10 @@ export const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="skills"
+              to="projects"
               className={styles.navbar__content}
             >
-              Mis Skills
+              Mis Proyectos
             </Link>
           </li>
         </ul>

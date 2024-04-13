@@ -5,7 +5,7 @@
 
 @media (min-width: 1024px) {
   .hero {
-    padding: 9rem 16rem;
+    padding: 12rem 16rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
