@@ -80,15 +80,31 @@
 }
 
 .navbar__content {
-  color: var(text-color);
+  color: var(--text-color-light);
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.4rem;
   cursor: pointer;
 }
+
 .navbar__content--active {
-  font-weight: 600;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.navbar__content::after {
+  content: '';
+  display: block;
+  height: 3px;
+  margin-top: 6px;
+  transform: translateY(8px);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.navbar__content--active::after {
+  background-color: var(--primary-color);
+  transform: translateY(0);
 }
 
 .nav__hamburger {

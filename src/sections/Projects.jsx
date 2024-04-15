@@ -43,7 +43,7 @@ export const Projects = () => {
             checked={selectedOption === 'fullstack'}
             className={styles.radio__input}
           ></input>
-          <span className={styles.radio__name}>FullStack</span>
+          <span className={styles.radio__name}>Full Stack</span>
         </label>
 
         <label className={styles.radio}>
@@ -55,7 +55,7 @@ export const Projects = () => {
             checked={selectedOption === 'frontend'}
             className={styles.radio__input}
           ></input>
-          <span className={styles.radio__name}>FrontEnd</span>
+          <span className={styles.radio__name}>Front-end</span>
         </label>
 
         <label className={styles.radio}>

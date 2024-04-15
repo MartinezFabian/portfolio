@@ -1,10 +1,10 @@
 .hero {
-  padding: 12rem 4rem;
+  padding: 14rem 4rem;
 }
 
 @media (min-width: 1024px) {
   .hero {
-    padding: 12rem 16rem;
+    padding: 20rem 16rem 16rem 16rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,7 +49,7 @@
 
 @media (min-width: 1200px) {
   .hero__img {
-    max-width: 66rem;
+    max-width: 59rem;
     margin: 0 0 0 auto;
   }
 }
@@ -61,7 +61,7 @@
 .hero__title {
   margin: 0;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 900;
 
   color: transparent;
   background: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgb(33, 19, 73) 94.3%);
@@ -87,8 +87,8 @@
 
 .hero__btn {
   background-color: var(--primary-color);
-  font-size: 1.3rem;
-  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
   border-radius: 1.4rem;
   font-weight: 600;
   display: block;
@@ -104,6 +104,14 @@
 
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+@media (min-width: 1200px) {
+  .hero__btn {
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+  }
+}
+
 .hero__btn:hover {
   cursor: pointer;
   background-color: #3c2298;
