@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 16rem;
+  z-index: 999;
 }
 
 @media (max-width: 1200px) {
