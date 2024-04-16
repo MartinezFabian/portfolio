@@ -10,7 +10,8 @@
 }
 
 .whyme__title {
-  margin-bottom: 6rem;
+  margin-top: 0;
+  margin-bottom: 6.5rem;
   text-align: center;
   font-size: 3rem;
   font-weight: 800;
@@ -21,8 +22,9 @@
 
 @media (min-width: 1204px) {
   .whyme__title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
+    font-weight: 900;
   }
 }
 

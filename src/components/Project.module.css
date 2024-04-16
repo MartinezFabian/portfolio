@@ -126,6 +126,6 @@
 }
 .project__link:hover {
   cursor: pointer;
-  background-color: #333333;
+  background-color: #000000;
   animation: flickering 2s linear infinite;
 }

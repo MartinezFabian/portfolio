@@ -6,9 +6,9 @@ export const projectsData = [
     description:
       'El proyecto de desarrollo de software para un Maxikiosco se centró en abordar los problemas de control manual del inventario y la falta de visibilidad sobre las ventas y las ganancias. La solución propuesta fue un sistema web de gestión de inventario que integre diversas funcionalidades para mejorar la eficiencia y la toma de decisiones del negocio.',
     images: [
-      'public/img/mockupProjects/sistema_de_gestion_stock_de_mercaderia.avif',
-      'public/img/mockupProjects/sistema_de_gestion_stock_de_mercaderia.webp',
-      'public/img/mockupProjects/sistema_de_gestion_stock_de_mercaderia.jpg',
+      '/img/mockupProjects/sistema_de_gestion_stock_de_mercaderia.avif',
+      '/img/mockupProjects/sistema_de_gestion_stock_de_mercaderia.webp',
+      '/img/mockupProjects/sistema_de_gestion_stock_de_mercaderia.jpg',
     ],
     technologies: [
       'JavaScript',
@@ -33,9 +33,9 @@ export const projectsData = [
     description:
       'Red social desarrollada con React.js, Node.js y MySQL. Incluye autenticación de usuarios, funcionalidades de compartir y eliminar publicaciones, seguir a otros usuarios para visualizar sus publicaciones en el feed de "Inicio", dar "Me gusta" y comentar en publicaciones de otros usuarios, mostrar detalles de usuario y sus publicaciones en la página de perfil, además de permitir la actualización de información del perfil por parte de los usuarios.',
     images: [
-      'public/img/mockupProjects/social_network.avif',
-      'public/img/mockupProjects/social_network.webp',
-      'public/img/mockupProjects/social_network.jpg',
+      '/img/mockupProjects/social_network.avif',
+      '/img/mockupProjects/social_network.webp',
+      '/img/mockupProjects/social_network.jpg',
     ],
     technologies: [
       'JavaScript',
@@ -59,9 +59,9 @@ export const projectsData = [
     description:
       'Una aplicación web de diario personal. Desarrollada con JavaScript, React y Firebase. Permite crear notas con texto e imágenes, gestionar cuentas de forma segura y acceder fácilmente con Google.',
     images: [
-      'public/img/mockupProjects/lifediary.avif',
-      'public/img/mockupProjects/lifediary.webp',
-      'public/img/mockupProjects/lifediary.jpg',
+      '/img/mockupProjects/lifediary.avif',
+      '/img/mockupProjects/lifediary.webp',
+      '/img/mockupProjects/lifediary.jpg',
     ],
     technologies: [
       'JavaScript',
@@ -84,9 +84,9 @@ export const projectsData = [
     description:
       'El proyecto ShoppingCart es una aplicación web que obtiene una lista de productos de una API, permitiendo a los usuarios filtrar los productos por precio mínimo y categoría. Los usuarios pueden añadir productos a su carrito, eliminar productos del carrito, vaciar todo el carrito, modificar la cantidad de cada producto del carrito y calcular dinámicamente el subtotal de los productos del carrito en tiempo real. ',
     images: [
-      'public/img/mockupProjects/shopping_cart.avif',
-      'public/img/mockupProjects/shopping_cart.webp',
-      'public/img/mockupProjects/shopping_cart.jpg',
+      '/img/mockupProjects/shopping_cart.avif',
+      '/img/mockupProjects/shopping_cart.webp',
+      '/img/mockupProjects/shopping_cart.jpg',
     ],
     technologies: ['JavaScript', 'React', 'CSS Modules', 'Vite'],
     github: 'https://github.com/MartinezFabian/ShoppingCart-React',
@@ -99,9 +99,9 @@ export const projectsData = [
     description:
       'Aplicación web que permite a los usuarios explorar información sobre países de todo el mundo. Los usuarios pueden ver una lista de todos los países de la API en la página de inicio, filtrar los países por región, hacer clic en un país específico para acceder a información detallada en una página separada y buscar un país utilizando un campo de entrada de búsqueda.',
     images: [
-      'public/img/mockupProjects/countries_app.avif',
-      'public/img/mockupProjects/countries_app.webp',
-      'public/img/mockupProjects/countries_app.jpg',
+      '/img/mockupProjects/countries_app.avif',
+      '/img/mockupProjects/countries_app.webp',
+      '/img/mockupProjects/countries_app.jpg',
     ],
     technologies: ['JavaScript', 'React', 'React Router', 'CSS Modules', 'Vite'],
     github: 'https://github.com/MartinezFabian/CountriesApp-React',
@@ -114,9 +114,9 @@ export const projectsData = [
     description:
       'El proyecto "Superhero Explorer" es una aplicación web que permite a los usuarios navegar por una lista de superhéroes de los universos Marvel y DC. Haciendo clic en "Más...", los usuarios pueden acceder a una página detallada del héroe, que provee información adicional sobre el héroe seleccionado. La aplicación también cuenta con una página de búsqueda que permite a los usuarios encontrar un héroe específico por su nombre. ',
     images: [
-      'public/img/mockupProjects/superhero_explorer.avif',
-      'public/img/mockupProjects/superhero_explorer.webp',
-      'public/img/mockupProjects/superhero_explorer.jpg',
+      '/img/mockupProjects/superhero_explorer.avif',
+      '/img/mockupProjects/superhero_explorer.webp',
+      '/img/mockupProjects/superhero_explorer.jpg',
     ],
     technologies: [
       'JavaScript',
@@ -137,9 +137,9 @@ export const projectsData = [
     description:
       'ToDo List App es una sencilla web de gestión de tareas diseñada para ayudar a los usuarios a organizar sus tareas diarias. La aplicación permite a los usuarios añadir, editar y marcar tareas como completadas. Con una interfaz de usuario intuitiva y almacenamiento de datos persistente.',
     images: [
-      'public/img/mockupProjects/todo_app.avif',
-      'public/img/mockupProjects/todo_app.webp',
-      'public/img/mockupProjects/todo_app.jpg',
+      '/img/mockupProjects/todo_app.avif',
+      '/img/mockupProjects/todo_app.webp',
+      '/img/mockupProjects/todo_app.jpg',
     ],
     technologies: ['JavaScript', 'React', 'Jest', 'React Testing Library', 'CSS Modules', 'Vite'],
     github: 'https://github.com/MartinezFabian/TodoApp-React',
@@ -152,9 +152,9 @@ export const projectsData = [
     description:
       'Gif Finder App es una aplicación web que permite a los usuarios buscar GIFs introduciendo una categoría. Tras la búsqueda, la aplicación muestra una lista de GIFs relacionados con la categoría introducida. ',
     images: [
-      'public/img/mockupProjects/gif_finder.avif',
-      'public/img/mockupProjects/gif_finder.webp',
-      'public/img/mockupProjects/gif_finder.jpg',
+      '/img/mockupProjects/gif_finder.avif',
+      '/img/mockupProjects/gif_finder.webp',
+      '/img/mockupProjects/gif_finder.jpg',
     ],
     technologies: ['JavaScript', 'React', 'Jest', 'React Testing Library', 'CSS Modules', 'Vite'],
     github: 'https://github.com/MartinezFabian/GifFinderApp-React',
@@ -167,9 +167,9 @@ export const projectsData = [
     description:
       'Cryptocurrency Price Tracker es una aplicación web que permite a los usuarios seguir los precios de varias criptomonedas. Al seleccionar una divisa base, como el USD, y elegir una criptodivisa, la aplicación proporciona a los usuarios información esencial, como el precio actual, el cambio en las últimas 24 horas, el precio más alto del día y el precio más bajo del día.',
     images: [
-      'public/img/mockupProjects/cryptocurrency_price_tracker.avif',
-      'public/img/mockupProjects/cryptocurrency_price_tracker.webp',
-      'public/img/mockupProjects/cryptocurrency_price_tracker.jpg',
+      '/img/mockupProjects/cryptocurrency_price_tracker.avif',
+      '/img/mockupProjects/cryptocurrency_price_tracker.webp',
+      '/img/mockupProjects/cryptocurrency_price_tracker.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/CryptocurrencyPriceTracker-JavaScript-HTML-CSS',
@@ -182,9 +182,9 @@ export const projectsData = [
     description:
       'FoodRecipeApp es una aplicación de búsqueda de recetas creada con JavaScript, HTML y CSS. Permite a los usuarios buscar varias recetas de comida basándose en diferentes categorías.',
     images: [
-      'public/img/mockupProjects/buscador_de_recetas.avif',
-      'public/img/mockupProjects/buscador_de_recetas.webp',
-      'public/img/mockupProjects/buscador_de_recetas.jpg',
+      '/img/mockupProjects/buscador_de_recetas.avif',
+      '/img/mockupProjects/buscador_de_recetas.webp',
+      '/img/mockupProjects/buscador_de_recetas.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/FoodRecipeApp-JavaScript-HTML-CSS',
@@ -197,9 +197,9 @@ export const projectsData = [
     description:
       'Se trata de una aplicación web creada con JavaScript vanilla que permite a los usuarios seleccionar un país y escribir el nombre de una ciudad dentro de ese país para obtener datos meteorológicos en tiempo real, como la temperatura actual, mínima y máxima, sensación térmica y humedad. Utiliza una API de servicios meteorológicos para obtener los datos y los muestra dinámicamente en la interfaz de usuario.',
     images: [
-      'public/img/mockupProjects/weather_app.avif',
-      'public/img/mockupProjects/weather_app.webp',
-      'public/img/mockupProjects/weather_app.jpg',
+      '/img/mockupProjects/weather_app.avif',
+      '/img/mockupProjects/weather_app.webp',
+      '/img/mockupProjects/weather_app.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/WeatherApp-JavaScript-HTML-CSS',
@@ -212,9 +212,9 @@ export const projectsData = [
     description:
       'Se trata de una aplicación web para la gestión de citas médicas. Permite a los usuarios añadir, editar y eliminar citas para los pacientes.',
     images: [
-      'public/img/mockupProjects/patient_manager.avif',
-      'public/img/mockupProjects/patient_manager.webp',
-      'public/img/mockupProjects/patient_manager.jpg',
+      '/img/mockupProjects/patient_manager.avif',
+      '/img/mockupProjects/patient_manager.webp',
+      '/img/mockupProjects/patient_manager.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/PatientManager-JavaScript-HTML-CSS',
@@ -227,9 +227,9 @@ export const projectsData = [
     description:
       'Expense Manager es una aplicación web que ayuda a los usuarios a controlar sus gastos. Permite a los usuarios establecer un presupuesto, registrar sus gastos con nombre e importe, y visualizarlos en formato de tabla. La aplicación también proporciona información sobre el presupuesto total y el presupuesto restante, con indicadores por colores basados en el porcentaje gastado. Los usuarios pueden eliminar gastos individuales y restablecer el presupuesto si es necesario.',
     images: [
-      'public/img/mockupProjects/expense_manager.avif',
-      'public/img/mockupProjects/expense_manager.webp',
-      'public/img/mockupProjects/expense_manager.jpg',
+      '/img/mockupProjects/expense_manager.avif',
+      '/img/mockupProjects/expense_manager.webp',
+      '/img/mockupProjects/expense_manager.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/ExpenseManager-JavaScript-HTML-CSS',
@@ -242,9 +242,9 @@ export const projectsData = [
     description:
       'Este es un proyecto básico de e-commerce desarrollado usando HTML, Sass y JavaScript. El enfoque principal en el desarrollo fue seguir el enfoque mobile-first y utilizar la metodología BEM para una estructura y estilos claros y mantenibles.',
     images: [
-      'public/img/mockupProjects/basic_ecommerce.avif',
-      'public/img/mockupProjects/basic_ecommerce.webp',
-      'public/img/mockupProjects/basic_ecommerce.jpg',
+      '/img/mockupProjects/basic_ecommerce.avif',
+      '/img/mockupProjects/basic_ecommerce.webp',
+      '/img/mockupProjects/basic_ecommerce.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'Sass'],
     github: 'https://github.com/MartinezFabian/E-commerce-HTML-Sass-JS',
@@ -257,9 +257,9 @@ export const projectsData = [
     description:
       'Este proyecto es una sencilla aplicación para tomar notas. La aplicación permite a los usuarios crear y borrar notas.',
     images: [
-      'public/img/mockupProjects/notes_app.avif',
-      'public/img/mockupProjects/notes_app.webp',
-      'public/img/mockupProjects/notes_app.jpg',
+      '/img/mockupProjects/notes_app.avif',
+      '/img/mockupProjects/notes_app.webp',
+      '/img/mockupProjects/notes_app.jpg',
     ],
     technologies: ['JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/NotesApp-JavaScript-HTML-CSS',
@@ -272,9 +272,9 @@ export const projectsData = [
     description:
       'Web de venta de viviendas utilizando Sass y Gulp, siguiendo el enfoque mobile first y la metodología BEM.',
     images: [
-      'public/img/mockupProjects/home_sales_website.avif',
-      'public/img/mockupProjects/home_sales_website.webp',
-      'public/img/mockupProjects/home_sales_website.jpg',
+      '/img/mockupProjects/home_sales_website.avif',
+      '/img/mockupProjects/home_sales_website.webp',
+      '/img/mockupProjects/home_sales_website.jpg',
     ],
     technologies: ['HTML', 'Sass', 'Gulp'],
     github: 'https://github.com/MartinezFabian/HomeSalesWebsite',
@@ -287,9 +287,9 @@ export const projectsData = [
     description:
       'Sitio web de hospedaje para viajes usando Sass y Gulp, siguiendo el enfoque mobile first y la metodología BEM.',
     images: [
-      'public/img/mockupProjects/travel-accommodation-website.avif',
-      'public/img/mockupProjects/travel-accommodation-website.webp',
-      'public/img/mockupProjects/travel-accommodation-website.jpg',
+      '/img/mockupProjects/travel-accommodation-website.avif',
+      '/img/mockupProjects/travel-accommodation-website.webp',
+      '/img/mockupProjects/travel-accommodation-website.jpg',
     ],
     technologies: ['HTML', 'Sass', 'Gulp'],
     github: 'https://github.com/MartinezFabian/Travel-accommodation-website',
@@ -302,9 +302,9 @@ export const projectsData = [
     description:
       'Landing page de delivery app utilizando Sass y Gulp, siguiendo el enfoque mobile first y la metodología BEM.',
     images: [
-      'public/img/mockupProjects/landing_page_delivery_app.avif',
-      'public/img/mockupProjects/landing_page_delivery_app.webp',
-      'public/img/mockupProjects/landing_page_delivery_app.jpg',
+      '/img/mockupProjects/landing_page_delivery_app.avif',
+      '/img/mockupProjects/landing_page_delivery_app.webp',
+      '/img/mockupProjects/landing_page_delivery_app.jpg',
     ],
     technologies: ['HTML', 'Sass', 'Gulp'],
     github: 'https://github.com/MartinezFabian/Landing-page-delivery-app',
@@ -316,9 +316,9 @@ export const projectsData = [
     title: 'Coffee Shop Website',
     description: 'Sitio web de cafetería usando Sass y Gulp, siguiendo el enfoque mobile first.',
     images: [
-      'public/img/mockupProjects/coffee_shop_website.avif',
-      'public/img/mockupProjects/coffee_shop_website.webp',
-      'public/img/mockupProjects/coffee_shop_website.jpg',
+      '/img/mockupProjects/coffee_shop_website.avif',
+      '/img/mockupProjects/coffee_shop_website.webp',
+      '/img/mockupProjects/coffee_shop_website.jpg',
     ],
     technologies: ['HTML', 'Sass', 'Gulp'],
     github: 'https://github.com/MartinezFabian/Coffee-Shop-Website',
@@ -331,9 +331,9 @@ export const projectsData = [
     description:
       'Landing page de aplicación móvil utilizando HTML y CSS, siguiendo el enfoque mobile first y la metodología BEM.',
     images: [
-      'public/img/mockupProjects/mobile_app_landing_page.avif',
-      'public/img/mockupProjects/mobile_app_landing_page.webp',
-      'public/img/mockupProjects/mobile_app_landing_page.jpg',
+      '/img/mockupProjects/mobile_app_landing_page.avif',
+      '/img/mockupProjects/mobile_app_landing_page.webp',
+      '/img/mockupProjects/mobile_app_landing_page.jpg',
     ],
     technologies: ['HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/MobileAppLandingPage',
@@ -346,9 +346,9 @@ export const projectsData = [
     description:
       'Sitio web de arquitectura utilizando HTML y CSS, siguiendo el enfoque mobile first.',
     images: [
-      'public/img/mockupProjects/architecture_website.avif',
-      'public/img/mockupProjects/architecture_website.webp',
-      'public/img/mockupProjects/architecture_website.jpg',
+      '/img/mockupProjects/architecture_website.avif',
+      '/img/mockupProjects/architecture_website.webp',
+      '/img/mockupProjects/architecture_website.jpg',
     ],
     technologies: ['HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/ArchitectureWebsite',
@@ -361,9 +361,9 @@ export const projectsData = [
     description:
       'Landing Page de auriculares utilizando HTML y CSS, siguiendo el enfoque Mobile first.',
     images: [
-      'public/img/mockupProjects/landing_page_headphones.avif',
-      'public/img/mockupProjects/landing_page_headphones.webp',
-      'public/img/mockupProjects/landing_page_headphones.jpg',
+      '/img/mockupProjects/landing_page_headphones.avif',
+      '/img/mockupProjects/landing_page_headphones.webp',
+      '/img/mockupProjects/landing_page_headphones.jpg',
     ],
     technologies: ['HTML', 'CSS'],
     github: 'https://github.com/MartinezFabian/LandingPageHeadphones',
