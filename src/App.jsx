@@ -1,3 +1,4 @@
+import { Contact } from './sections/Contact';
 import { Hero } from './sections/Hero';
 import { Navbar } from './sections/Navbar';
 import { Projects } from './sections/Projects';
@@ -7,11 +8,14 @@ import { WhyMe } from './sections/WhyMe';
 export const App = () => {
   return (
     <>
-      <Navbar></Navbar>
+      <header>
+        <Navbar></Navbar>
+      </header>
       <Hero></Hero>
       <WhyMe></WhyMe>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
     </>
   );
 };
