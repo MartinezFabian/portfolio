@@ -112,3 +112,85 @@
   background-color: #3c2298;
   animation: flickering 2s linear infinite;
 }
+
+.contact__error {
+  color: #bc0909;
+  font-weight: 500;
+}
+
+.success {
+  width: 320px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background: #edfbd8;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px -3px #111;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.success__icon {
+  width: 20px;
+  height: 20px;
+  transform: translateY(-2px);
+  margin-right: 8px;
+}
+
+.success__icon path {
+  fill: #84d65a;
+}
+
+.success__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2b641e;
+}
+
+.error {
+  width: 320px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background: #fce8db;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px -3px #111;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.error__icon {
+  width: 20px;
+  height: 20px;
+  transform: translateY(-2px);
+  margin-right: 8px;
+}
+
+.error__icon path {
+  fill: #ef665b;
+}
+
+.error__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #71192f;
+}
+
+.error__close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.error__close path {
+  fill: #71192f;
+}
