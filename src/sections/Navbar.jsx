@@ -35,7 +35,17 @@ export const Navbar = () => {
 
   return (
     <nav className={`${styles.navbar}  ${navActive ? 'active' : ''}`}>
-      <h3 className={styles.navbar__logo__name}>Fabian Martinez.</h3>
+      <Link
+        onClick={closeMenu}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="hero"
+        className={styles.navbar__logo__name}
+      >
+        Fabian Martinez.
+      </Link>
 
       <a
         className={`${styles.nav__hamburger} ${navActive ? styles.active : ''}`}
@@ -106,6 +116,23 @@ export const Navbar = () => {
               Mis Proyectos
             </Link>
           </li>
+
+          {navActive ? (
+            <li>
+              <Link
+                onClick={closeMenu}
+                activeClass={styles['navbar__content--active']}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="contact"
+                className={styles.navbar__content}
+              >
+                Contactarme
+              </Link>
+            </li>
+          ) : null}
         </ul>
       </div>
 

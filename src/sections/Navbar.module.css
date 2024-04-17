@@ -34,6 +34,10 @@
   margin: 0;
 }
 
+.navbar__logo__name:hover {
+  cursor: pointer;
+}
+
 .navbar__items > ul {
   list-style: none;
   display: flex;
