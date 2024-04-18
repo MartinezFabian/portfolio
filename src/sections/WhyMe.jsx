@@ -3,7 +3,7 @@ import styles from './WhyMe.module.css';
 export const WhyMe = () => {
   return (
     <section id="why-me" className={styles.whyme}>
-      <h2 className={styles.whyme__title}>3 Razones para elegirme</h2>
+      <h2 className={styles.whyme__title}>3 Razones Para Elegirme</h2>
 
       <div className={styles.whyme__cards}>
         <article className={styles.card}>

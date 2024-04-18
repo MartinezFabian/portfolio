@@ -19,7 +19,14 @@ export const Projects = () => {
 
   return (
     <section id="projects" className={styles.projects}>
-      <h3 className={styles.projects__title}>Mis Proyectos</h3>
+      <div className={styles.projects__container}>
+        <h3 className={styles.projects__title}>Mis Proyectos</h3>
+        <div className={styles.container}>
+          <div className={styles.loader}></div>
+          <div className={styles.loader}></div>
+          <div className={styles.loader}></div>
+        </div>
+      </div>
 
       <div className={styles.radios}>
         <label className={styles.radio}>

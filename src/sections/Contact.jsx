@@ -48,7 +48,7 @@ export const Contact = () => {
 
   return (
     <section id="contact" className={styles.contact}>
-      <h3 className={styles.contact__title}>Contactar conmigo</h3>
+      <h3 className={styles.contact__title}>Contactarme</h3>
 
       <form ref={form} onSubmit={sendEmail} className={styles.contact__form}>
         <div className={styles.contact__field}>

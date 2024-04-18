@@ -2,7 +2,7 @@ import styles from './Hero.module.css';
 
 export const Hero = () => {
   return (
-    <main id="hero" className={styles.hero}>
+    <main id="hero" className={styles.hero + ' ' + 'animate__animated animate__fadeIn'}>
       <section className={styles.hero__portrait}>
         <picture>
           <source srcSet="/img/portrait.avif" type="image/avif" />

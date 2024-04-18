@@ -62,8 +62,14 @@
 
 .project__title {
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 700;
+}
+
+@media (min-width: 414px) {
+  .project__title {
+    font-size: 2.4rem;
+  }
 }
 
 @media (min-width: 1204px) {
@@ -75,9 +81,15 @@
 
 .project__description {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: var(--text-color);
+}
+
+@media (min-width: 414px) {
+  .project__description {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -91,13 +103,19 @@
 }
 
 .technology {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   display: inline-block;
   padding: 5px;
   border-radius: 0.5rem;
   margin: 0.4rem;
   background-color: var(--gray);
+}
+
+@media (min-width: 414px) {
+  .technology {
+    font-size: 1.4rem;
+  }
 }
 
 .project__links {
@@ -107,7 +125,7 @@
 
 .project__link {
   background-color: #333333;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: 1.2rem 2.6rem;
   border-radius: 1rem;
   font-weight: 600;
@@ -128,4 +146,10 @@
   cursor: pointer;
   background-color: #000000;
   animation: flickering 2s linear infinite;
+}
+
+@media (min-width: 414px) {
+  .project__link {
+    font-size: 1.3rem;
+  }
 }

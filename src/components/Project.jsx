@@ -4,7 +4,7 @@ import { Github } from './icons/Github';
 
 export const Project = ({ id, title, description, images, technologies, github, demo }) => {
   return (
-    <article className={styles.project}>
+    <article className={styles.project + ' ' + 'animate__animated animate__fadeIn'}>
       <picture className={styles.project__picture}>
         <source srcSet={images[0]} type="image/avif" />
         <source srcSet={images[1]} type="image/webp" />

@@ -14,10 +14,22 @@
   margin-bottom: 6rem;
   text-align: center;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 900;
   color: transparent;
   background: linear-gradient(83.2deg, rgba(150, 93, 233, 1) 10.8%, rgb(33, 19, 73) 94.3%);
   -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200% 100%;
+  animation: slideGradient 4s alternate-reverse infinite;
+}
+
+@keyframes slideGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 90% 50%;
+  }
 }
 
 @media (min-width: 1204px) {
