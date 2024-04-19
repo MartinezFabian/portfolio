@@ -28,13 +28,17 @@ export const Hero = () => {
         </div>
 
         <p className={styles.hero__description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae itaque dignissimos maxime
-          numquam quod libero inventore excepturi voluptatibus consequuntur! Vero delectus ab enim
-          quidem odit earum ipsa provident debitis fugit.
+          Técnico Universitario en programación con base sólida en desarrollo de software y
+          autodidacta. Cuento ya con un año de experiencia práctica en la creación y desarrollo de
+          sitios web.
         </p>
 
         <div className={styles.hero__buttons}>
-          <button className={styles.hero__btn}>
+          <a
+            href="https://www.linkedin.com/in/fabianmartinezdev/"
+            target="_blank"
+            className={styles.hero__btn}
+          >
             <svg
               width="16"
               height="16"
@@ -48,7 +52,7 @@ export const Hero = () => {
               />
             </svg>
             Mi LinkedIn
-          </button>
+          </a>
           <button className={`${styles.hero__btn} ${styles['hero__btn--dark']}`}>
             <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 -960 960 960" width="22">
               <path
