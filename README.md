@@ -1,8 +1,9 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Welcome to my personal portfolio repository!
 
-Currently, two official plugins are available:
+As a Full-stack Developer, this repository showcases my diverse range of projects and accomplishments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Developed using React, along with React Hook Form for efficient form management and CSS Modules for structured styling, this portfolio encapsulates my skills and expertise in full-stack development.
+
+Explore the projects listed here to gain insight into my work. To discover more about my portfolio and reach out for questions or collaboration opportunities, visit [Portfolio](https://fabianmartinez.netlify.app/).
