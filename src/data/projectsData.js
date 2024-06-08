@@ -1,6 +1,6 @@
 export const projectsData = [
   {
-    id: 100,
+    id: 98,
     category: 'fullstack',
     title: 'Sistema de Gestión de Stock de Mercadería',
     description:
@@ -26,6 +26,46 @@ export const projectsData = [
     github: '',
     demo: 'https://sistema-gestion-stock-mercaderia.netlify.app/',
   },
+  {
+    id: 99,
+    category: 'frontend',
+    title: 'Sistema de Pacientes',
+    description:
+      'El sistema utiliza el archivo JSON "pacientes.json" como fuente de datos y muestra la lista de pacientes ordenada alfabéticamente, con la fecha en formato dd/mm/aaaa y la edad calculada. Además, resalta las filas de los pacientes que tienen alergias. Permite filtrar pacientes por nombre y proporciona funcionalidades de inicio de sesión, almacenando los datos en el localstorage del navegador. También ofrece operaciones de ABM (Alta, Baja y Modificación) de pacientes con formularios y validaciones, mostrando mensajes de éxito o error para cada operación, incluyendo la creación de un nuevo paciente, la edición de un paciente existente, la eliminación de un paciente y la visualización detallada de la información de un paciente.',
+    images: [
+      '/img/mockupProjects/pacientes.avif',
+      '/img/mockupProjects/pacientes.webp',
+      '/img/mockupProjects/pacientes.jpg',
+    ],
+    technologies: [
+      'JavaScript',
+      'React',
+      'Redux',
+      'React Router',
+      'React Hook Form',
+      'Material UI',
+      'Jest',
+      'React Testing Library',
+    ],
+    github: 'https://github.com/MartinezFabian/PruebaTecnicaFrontEndReact',
+    demo: 'https://sistemapacientes.netlify.app/login',
+  },
+  {
+    id: 100,
+    category: 'frontend',
+    title: 'EmployeeWeb',
+    description:
+      'El sistema debe cargar los datos de los empleados desde el archivo "employees.json" y mostrarlos en una tabla con paginación. Los usuarios pueden filtrar y ordenar a los empleados por apellido, nombre, puesto, departamento, fecha de nacimiento y contacto. Además, el sistema permite destacar empleados, los cuales se muestran en un modal accesible desde la barra de navegación, y desde este modal se pueden eliminar empleados de la lista de destacados sin cerrarlo.',
+    images: [
+      '/img/mockupProjects/employee_web.avif',
+      '/img/mockupProjects/employee_web.webp',
+      '/img/mockupProjects/employee_web.jpg',
+    ],
+    technologies: ['TypeScript', 'React', 'Redux', 'Material UI'],
+    github: 'https://github.com/MartinezFabian/EmployeeWeb_React_TypeScript',
+    demo: 'https://employeesweb.netlify.app/',
+  },
+
   {
     id: 101,
     category: 'fullstack',

@@ -12,12 +12,14 @@ import { Linux } from '../components/icons/Linux';
 import { MaterialUI } from '../components/icons/MaterialUI';
 import { MySQL } from '../components/icons/MySQL';
 import { Node } from '../components/icons/Node';
+import Postman from '../components/icons/Postman';
 import { ReactIcon } from '../components/icons/ReactIcon';
 import { ReactQuery } from '../components/icons/ReactQuery';
 import { ReactRouter } from '../components/icons/ReactRouter';
 import { Redux } from '../components/icons/Redux';
 import { SQLServer } from '../components/icons/SQLServer';
 import { Sass } from '../components/icons/Sass';
+import { TypeScript } from '../components/icons/TypeScript';
 import { VisualStudio } from '../components/icons/VisualStudio';
 import { VisualStudioCode } from '../components/icons/VisualStudioCode';
 import styles from './Skills.module.css';
@@ -58,6 +60,13 @@ export const Skills = () => {
                 <JavaScript width="40" height="40"></JavaScript>
               </div>
               <p className={styles.skill__name}>JavaScript</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <TypeScript width="40" height="40"></TypeScript>
+              </div>
+              <p className={styles.skill__name}>TypeScript</p>
             </li>
 
             <li className={styles.skill}>
@@ -145,6 +154,13 @@ export const Skills = () => {
                 <Jest width="40px" height="40px"></Jest>
               </div>
               <p className={styles.skill__name}>Jest</p>
+            </li>
+
+            <li className={styles.skill}>
+              <div className={styles.skill__svg}>
+                <Postman width="40px" height="40px"></Postman>
+              </div>
+              <p className={styles.skill__name}>Postman</p>
             </li>
 
             <li className={styles.skill}>
